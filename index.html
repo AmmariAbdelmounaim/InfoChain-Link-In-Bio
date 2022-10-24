@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./sources/logo.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        VANTA.NET({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: true,
+          minHeight: 400.0,
+          minWidth: 300.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          color: 0x18cab8,
+          backgroundColor: 0x0e0e1d,
+          points: 12.0,
+          spacing: 12.0,
+        });
+        setTimeout(() => {
+          const main = document.querySelector("main");
+          main.style.opacity = 1;
+          main.style.filter = "blur(0px)";
+        }, 1000);
+      });
+    </script>
+    <title>Info chain bio page</title>
+  </head>
+  <div id="vanta"></div>
+  <body>
+    <main>
+      <header>
+        <img src="./sources/InfoChain Logo.png" alt="InfoChain logo" />
+        <h1>@InfoChain</h1>
+      </header>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/info_chain_ensaf/?hl=fr">
+            <div class="container">
+              <img src="./sources/instagram.svg" alt="instagram" width="30" />
+              Instagram
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.facebook.com/?ref=tn_tnmn">
+            <div class="container">
+              <img src="./sources/facebook.svg" alt="facebook" width="30" />
+              Facebook
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/EnsaInfochain">
+            <div class="container">
+              <img src="./sources/twitter.svg" alt="twitter" width="30" />
+              Twitter
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/company/info-chain/">
+            <div class="container">
+              <img src="./sources/linkedin.svg" alt="linkedin" width="30" />
+              Linkedin
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>

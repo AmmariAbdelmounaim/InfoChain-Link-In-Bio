@@ -38,6 +38,10 @@ header > img {
   box-shadow: #ffffff 0px 2px 8px 0px;
   margin-bottom: 0.7em;
 }
+header > img :hover {
+  box-shadow: #12ad8e 0px 4px 10px 0px;
+  transition: 1s;
+}
 header > h1 {
   display: inline-block;
   font-size: 1em;

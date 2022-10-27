@@ -18,5 +18,5 @@ This project is a link in bio for InfoChain instagram page inspired by M.Takuya 
   </li>
 </ul>
 
-<a href="https://www.craftz.dog/">M.Takuya Matsuyama homepage </a>
+<a href="https://www.craftz.dog/">M.Takuya Matsuyama homepage. </a>
 
